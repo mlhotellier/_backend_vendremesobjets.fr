@@ -50,13 +50,20 @@ Pour commencer, vous devrez récupérer les ressources pour le back-end
     npm start
     ```
 
+ou si vous souhaitez relancer automatiquement le serveur après des modifications, utilisez la commande :
+
+    ```bash
+    nodemon
+    ```
+
     Cela lancera le serveur de développement pour l'application backend.
 
 4. **Remplacer les valeurs `process.env.VALUE` :** Créez un fichier `.env` à la racine de votre projet et ajouter les valeurs :
-- PORT=<port> // Par défault configuré sur 3000
-- DB_URL=<url> // Sous la forme NAME.ID.mongodb.net/
-- DB_ID=<id>
-- DB_PASSWORD=<password>
+- PORT=PORT // Par défault configuré sur 3000
+- DB_URL=URL // Sous la forme NAME.ID.mongodb.net/
+- DB_ID=ID
+- DB_PASSWORD=PASSWORD
+- SECRET_KEY=KEY // Consultez config.js pour générer une clé
 
 
 ## Contributions
