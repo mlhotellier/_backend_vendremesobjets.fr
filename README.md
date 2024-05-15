@@ -31,7 +31,7 @@ Pour commencer, vous devrez récupérer les ressources pour le front-end
 
 Pour commencer, vous devrez récupérer les ressources pour le back-end
 
-. **Clonage du Code Backend :** À partir de votre répertoire de travail, exécutez la commande suivante :
+1. **Clonage du Code Backend :** À partir de votre répertoire de travail, exécutez la commande suivante :
 
     ```bash
     git clone https://github.com/mlhotellier/_backend_vendremesobjets.fr.git
